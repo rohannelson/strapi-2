@@ -12,17 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "layout": {
-      "type": "string"
-    },
     "title": {
       "type": "string"
     },
     "description": {
       "type": "text"
-    },
-    "image": {
-      "type": "string"
     },
     "pubDate": {
       "type": "date"
@@ -30,11 +24,19 @@
     "context": {
       "type": "richtext"
     },
-    "tags": {
-      "type": "string"
-    },
     "content": {
       "type": "richtext"
+    },
+    "image": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "customField",
+      "options": [
+        "spiritual experiences",
+        "journalling"
+      ],
+      "customField": "plugin::multi-select.multi-select"
     }
   }
 }
